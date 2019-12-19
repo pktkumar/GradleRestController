@@ -5,8 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-//@RestController
-@Controller
+@RestController
 
 public class MyController {
 
@@ -24,6 +23,6 @@ public class MyController {
     @RequestMapping("/NewWeb")
     public String NewWeb(){
 
-        return "NewWeb";
+        return "this will ruturn in page";
     }
 }
